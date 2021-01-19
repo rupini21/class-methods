@@ -1,0 +1,10 @@
+class Result:
+            def __init__(self,phy,chem,math):
+                          self.phy=phy
+                          self.chem=chem
+                          self.math=math
+            def printavg(self):
+                          print(f"Average={(self.phy+self.chem+self.math)/3}")
+rollone=Result(86,95,85)
+rollone.chem
+rollone.printavg()
