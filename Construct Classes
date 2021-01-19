@@ -1,0 +1,13 @@
+class fish:
+    def swim(self):
+        print("The fish is swimming.")
+
+    def be_awesome(self):
+        print("The fish is being awesome.")
+def main():
+    sammy = fish()
+    sammy.swim()
+    sammy.be_awesome()
+
+if __name__ == "__main__":
+    main()
