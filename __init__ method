@@ -1,0 +1,11 @@
+class Person:  
+    def __init__(self, name):   # init method or constructor  
+       self.name = name 
+    def say_hi(self):     # Sample Method  
+        print('Hello, my name is', self.name) 
+p = Person('Rupini') 
+p.say_hi()  
+   
+   
+    
+   
