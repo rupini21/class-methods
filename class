@@ -1,0 +1,4 @@
+x = [4, 5, 9]
+y = "Hello"
+print(type(x), type(y))
+print(type(type(x)), type(type(y)))
